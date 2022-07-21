@@ -1,0 +1,26 @@
+.title {
+	font-weight: 500;
+	margin-bottom: 20px;
+}
+
+.title span {
+	color: #f79956;
+}
+
+.text {
+	margin-bottom: 10px;
+}
+
+.button {
+	background-color: #f79956;
+	padding: 15px;
+	border-radius: 8px;
+	color: #ffffff;
+	cursor: pointer;
+	font-weight: 600;
+	min-width: 120px;
+}
+
+.text {
+	margin-bottom: 10px;
+}

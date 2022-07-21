@@ -1,0 +1,45 @@
+.button {
+	background-color: #f79956;
+	padding: 15px;
+	border-radius: 8px;
+	color: #ffffff;
+	cursor: pointer;
+	font-weight: 600;
+	min-width: 120px;
+}
+
+.or {
+	position: relative;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	max-width: 540px;
+}
+
+.or::before {
+	content: '';
+	position: absolute;
+	left: 0px;
+	width: 45%;
+	height: 2px;
+	background-color: #f79956;
+}
+
+.or::after {
+	content: '';
+	position: absolute;
+	right: 0px;
+	width: 45%;
+	height: 2px;
+	background-color: #f79956;
+}
+
+.grid {
+	display: grid;
+	gap: 20px;
+	grid-template-columns: 1fr;
+}
+
+.text {
+	margin-bottom: 10px;
+}

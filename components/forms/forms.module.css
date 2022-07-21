@@ -1,0 +1,36 @@
+.form {
+	max-width: 540px;
+	width: 100%;
+}
+
+.button {
+	background-color: #f79956;
+	padding: 15px;
+	border-radius: 8px;
+	color: #ffffff;
+	cursor: pointer;
+	font-weight: 600;
+	min-width: 120px;
+}
+
+.title {
+	font-weight: 500;
+	margin-bottom: 30px;
+}
+
+.formControl {
+	display: grid;
+	gap: 20px;
+}
+
+.customizeTimeDuration {
+	color: #f79956;
+	cursor: pointer;
+	margin-top: 8px;
+	font-size: 14px;
+}
+
+.grid {
+	display: grid;
+	gap: 20px;
+}

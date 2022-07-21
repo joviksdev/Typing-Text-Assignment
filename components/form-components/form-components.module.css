@@ -1,0 +1,32 @@
+.textInput {
+	padding: 16.5px 14px;
+	width: 100%;
+	outline-color: #f79956;
+}
+
+.select {
+	padding: 16.5px 14px;
+	width: 100%;
+	outline-color: #f79956;
+}
+
+.textArea {
+	padding: 16.5px 14px;
+	width: 100%;
+	outline-color: #f79956;
+	resize: none;
+	font-style: inherit;
+	font-family: inherit !important;
+}
+
+.label {
+	display: inline-block;
+	margin-bottom: 6px;
+}
+
+.errorText {
+	color: red;
+	font-size: 13px;
+	margin-left: 15px;
+	margin-top: 6px;
+}

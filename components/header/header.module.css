@@ -1,0 +1,45 @@
+.header {
+	background-color: #f79956;
+	color: #ffffff;
+	padding: 1.5rem 0px;
+}
+
+.container {
+	max-width: 1200px;
+	padding: 0px 15px;
+	overflow: hidden;
+	margin: auto;
+	display: flex;
+	flex-direction: column;
+	gap: 20px;
+	justify-content: space-between;
+}
+
+.buttonTimerWrapper {
+	display: flex;
+	align-items: center;
+	gap: 20px;
+}
+
+.button {
+	background-color: #ffffff;
+	padding: 15px;
+	border-radius: 8px;
+	color: #f79956;
+	cursor: pointer;
+	font-weight: 600;
+	min-width: 120px;
+}
+
+@media (min-width: 960px) {
+	.container {
+		max-width: 1200px;
+		padding: 0px 15px;
+		overflow: hidden;
+		margin: auto;
+		display: flex;
+		align-items: center;
+		flex-direction: row;
+		justify-content: space-between;
+	}
+}
