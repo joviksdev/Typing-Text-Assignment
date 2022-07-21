@@ -2,7 +2,7 @@
 
 This is a Typing Text Assignment bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
-The application uses [`random-paragraph`](https://www.npmjs.com/package/random-paragraph) an npm library to genarate random paragraph
+The application uses [`random-paragraph`](https://www.npmjs.com/package/random-paragraph), an npm library to genarate random paragraph and redux-toolkit for application state management.
 
 ### Getting Started
 

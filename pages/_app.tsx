@@ -17,9 +17,7 @@ const NextApp = ({ children }: NextAppProps) => {
 	);
 	const [isDisplayInfo, setDisplayInfo] = useState<boolean>(false);
 	useEffect(() => {
-		if (isDisplayAppInfo) {
-			setDisplayInfo(isDisplayAppInfo);
-		}
+		setDisplayInfo(isDisplayAppInfo);
 	}, [isDisplayAppInfo]);
 
 	return (

@@ -12,6 +12,7 @@ const ApplicationInfo = () => {
 	const dispatch = useAppDispatch();
 
 	const handleGetStarted = () => {
+		console.log('click');
 		dispatch(setDisplayAppInfo(false));
 		Storage.saveItem(StorageKeys.AppUsage, 'used_app');
 	};
@@ -19,12 +20,16 @@ const ApplicationInfo = () => {
 	return (
 		<div className={styles.container}>
 			<p className={styles.text}>
-				To you will be presented with random text paragraph with a default timer
-				of {calculateTime(DEFAULT_TIMER)} mins
+				You will be presented with random text paragraph, and option to specify
+				duration time
 			</p>
 			<p className={styles.text}>
 				Please note that you have the option of specifying paragraph text of you
 				choice and timer
+			</p>
+			<p className={styles.text}>
+				Once the application timer is due, the quiz will close up, displaying
+				your score.
 			</p>
 			<Button onClick={() => handleGetStarted()} className={styles.button}>
 				Get started
